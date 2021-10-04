@@ -1,0 +1,69 @@
+/*Basic CSS*/
+    .alignleft{
+      float: left;
+      margin-right: 15px;
+    }
+    .alignright{
+      float: right;
+      margin-left: 15px;
+    }
+    .aligncenter{
+      display: block;
+      margin:0 auto 15px;
+    }
+    a:focus{
+      outline: 0 solid
+    }
+    /*input:focus, button:focus {
+    outline: 0 solid
+    }*/
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin: 0 0 15px;
+      font-weight: 700;
+    }
+    body{
+      font-family: 'Open Sans',sans-serif;
+    }
+    a:hover{
+      text-decoration:none;
+    }
+ /* end of Basic CSS*/ 
+
+#stopwatch{
+  font-size: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+
+}
+#timer-buttons{
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  transform: translate(-51%, -45%);
+}
+#timer-buttons li{
+  display: inline;
+  padding-left: 10px;
+}
+button{
+  width: 100px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #202020;
+  color: aliceblue;
+  cursor: pointer;
+  outline: none;
+  transition:.3s ease-in-out;
+}
+button:hover{
+  color: #111;
+  background-color: #ddd;
+  border: 1px solid #202020;
+}
